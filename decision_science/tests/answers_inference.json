@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "positive\n",
+    "T_STAT": "the t-statistic indicates the overall statistical significance of the regression.\n\nt = (mean(x) - µ)/sigma\n\n",
+    "P_VALUE": "\nThis p-value indicates that there is approximately 12.8% chance that this value of t-stat can be obtained considering a null\nhypothesis. This feature therefore appers not to be statistically significant at the 95% confidence level, not even at a 90% \nconfidence level.\n",
+    "INCREASE": "\nAn increase of 1 percentage point of married couples decreases the amount of incident by 2115, holding all other\nparameters constant.\n",
+    "LIMITATIONS": "\nThe homoscedasticity of the sample has not be verified. With high standar errors, it is likely that the features used in the\nregression show colinearity. Even though the r squared is valid, the coefficient of inference cannot be trusted. It is necessary\nto check the residuals distibution in case with need to use a non-parametric model, and remove non significant features until\nwe observe no colinearity.\n"
+}
